@@ -1,6 +1,6 @@
 # 연구 역량 강화를 위한 논문 인용 네트워크 분석 - 물리학 분야를 중점으로(Analysis of the Papers Citation Network to Strengthen Research Capacity – Focusing on Physics)
 
-> 한국정보기술전략혁신학화(KIITI) 학술대회 2025에 제출한 논문 "연구 역량 강화를 위한 논문 인용 네트워크 분석"의 공식 코드 및 보충 자료 저장소입니다.
+> 한국정보기술전략혁신학회(KIITI) 학술대회 2025에 제출한 논문 "연구 역량 강화를 위한 논문 인용 네트워크 분석"의 공식 코드 및 보충 자료 저장소입니다.
 
 **저자:** 이규현(경희대학교 물리학과)
 
