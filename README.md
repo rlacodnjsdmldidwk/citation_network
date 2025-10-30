@@ -1,6 +1,6 @@
 # 연구 역량 강화를 위한 논문 인용 네트워크 분석 - 물리학 분야를 중점으로(Analysis of the Papers Citation Network to Strengthen Research Capacity – Focusing on Physics)
 
-> OOO 학술대회 2025에 제출한 논문 "연구 역량 강화를 위한 논문 인용 네트워크 분석"의 공식 코드 및 보충 자료 저장소입니다.
+> 한국정보기술전략혁신학화(KIITI) 학술대회 2025에 제출한 논문 "연구 역량 강화를 위한 논문 인용 네트워크 분석"의 공식 코드 및 보충 자료 저장소입니다.
 
 **저자:** 이규현(경희대학교 물리학과)
 
@@ -32,4 +32,13 @@
     * `mds.png`: MDS 결과
 
 * ** /tables**:
-* 
+   * 표 1: 다양한 중심성(centrality) 척도들
+
+| centrality | 설명 | 수학적 정의 | 공식 |
+| :--- | :--- | :--- | :--- |
+| degree (CDi) | 한 노드와 직접 연결된 엣지의 수 | 노드 i의 연결 수 | $CD_i=k_i$ |
+| in-degree (Cini) | 해당 노드를 인용한(가리킨) 다른 노드의 수 | 노드 i에 들어오는 엣지 수 | $C^{in}_i=\sum_j A_{ij}$ |
+| out-degree (Couti) | 해당 노드가 인용한(가리키는) 다른 노드의 수 | 노드 i에서 나가는 엣지 수 | $C^{out}_i=\sum_j A_{ij}$ |
+| pagerank (PRi) | 중요 노드로부터 연결된 링크의 영향력을 순환적으로 고려한 중심성 | 엣지 기반의 확률적 중요도 | $PR_i=\frac{1-d}{N}+d\sum_{j \in M_i} \frac{PR_j}{L_j}$ |
+| eigenvector (xi) | 연결된 노드의 중심성이 높을수록 높은 점수를 받는 지표 | 노드i의 점수는 연결된 노드들의 점수의 선형 결합 | $Ax=\lambda x$ |
+| betweenness (btw(i)) | 해당 노드가 다른 노드 간 최단 경로에 얼마나 자주 등장하는지 | 노드i가 최단 경로에 위치한 비율 | $btw_i=\sum_{s \neq i \neq t} \frac{\sigma_{st}(i)}{\sigma_{st}}$ |
