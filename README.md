@@ -31,7 +31,7 @@
     * `network_visualization.png`: 논문 인용 네트워크 시각화
     * `mds.png`: MDS 결과
 
-* ** tables** :
+* **tables** :
    * 표 1: 다양한 중심성(centrality) 척도들
 
      
@@ -104,3 +104,15 @@
 | 3 | Review of gallium-oxide-based solar-blind ultraviolet photodetectors | Raman Scattering Errors in Stimulated-Raman-Induced Logic Gates in Ba133+ | Electrochemical studies on the effect of residual stress on the corrosion of 316L manufactured by selective laser melting | Ohmic Contact Engineering for Two-Dimensional Materials |
 | 4 | Enhancing the intrinsic p-type conductivity of the ultra-wide bandgap Ga2O3 semiconductor | A high-fidelity quantum matter-link between ion-trap microchip modules | Laser powder bed fusion for metal additive manufacturing: perspectives on recent developments | Fermi-level depinning of 2D transition metal dichalcogenide transistors |
 | 5 | Hydrogen plasma treatment of β- Ga2O3 : Changes in electrical properties and deep trap spectra | A Race-Track Trapped-Ion Quantum Processor | Improvement of corrosion resistance of SS316L manufactured by selective laser melting through subcritical annealing | 2D HfN2/graphene interface based Schottky device: Unmatched controllability in electrical contacts and carrier concentration via electrostatic gating and out-of-plane strain |
+
+## 📄 인용 (Citation)
+
+본 연구를 인용하시려면 다음 정보를 사용해 주십시오:
+
+> 이규현. (2025). 연구 역량 강화를 위한 논문 인용 네트워크 분석. *한국정보기술전략혁신학화(KIITI) 학술대회 논문집*, 00(00), pp.xx-xx.
+
+---
+
+## 📄 라이선스
+
+본 프로젝트의 코드는 [MIT 라이선스](LICENSE) 하에 배포됩니다.
